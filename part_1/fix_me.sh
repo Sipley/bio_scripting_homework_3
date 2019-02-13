@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#NOTE: some things I would consider that may not be
+# expected for this exercise:
+#    What happens if user inputs '0'?
+#    What happens if user inputs non-numeric?
+#    What happens if user inputs non-integer?
+#    What happens if user inputs ''?
+
 # Reading data from the user's input
 echo 'Enter a numeric for 'a': '
 read a
