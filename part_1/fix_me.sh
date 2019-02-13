@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Reading data from the user's input
-echo 'Enter a : '
+echo 'Enter a numeric for 'a': '
 read a
-echo 'Enter b : '
+echo 'Enter a numeric for 'b' : '
 read b
 
 add=$((a + b))
